@@ -1,0 +1,155 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id        String   @id @default(cuid())
+  email     String   @unique
+  name      String?
+  role      UserRole @default(USER)
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  // Relations
+  assignedProjects Project[] @relation("ProjectAssignee")
+  createdProjects  Project[] @relation("ProjectCreator")
+
+  @@map("users")
+}
+
+model Customer {
+  id          String        @id @default(cuid())
+  name        String
+  email       String?       @unique
+  phone       String?
+  company     String?
+  value       CustomerValue @default(MEDIUM)
+  status      CustomerStatus @default(ACTIVE)
+  notes       String?
+  createdAt   DateTime      @default(now())
+  updatedAt   DateTime      @updatedAt
+
+  // Relations
+  projects    Project[]
+  interactions CustomerInteraction[]
+
+  @@map("customers")
+}
+
+model Project {
+  id          String        @id @default(cuid())
+  title       String
+  description String?
+  status      ProjectStatus @default(TODO)
+  priority    Priority      @default(MEDIUM)
+  dueDate     DateTime?
+  createdAt   DateTime      @default(now())
+  updatedAt   DateTime      @updatedAt
+
+  // Relations
+  customerId  String
+  customer    Customer @relation(fields: [customerId], references: [id], onDelete: Cascade)
+  
+  assigneeId  String?
+  assignee    User?    @relation("ProjectAssignee", fields: [assigneeId], references: [id])
+  
+  createdById String
+  createdBy   User     @relation("ProjectCreator", fields: [createdById], references: [id])
+
+  tasks       Task[]
+
+  @@map("projects")
+}
+
+model Task {
+  id          String     @id @default(cuid())
+  title       String
+  description String?
+  completed   Boolean    @default(false)
+  createdAt   DateTime   @default(now())
+  updatedAt   DateTime   @updatedAt
+
+  // Relations
+  projectId   String
+  project     Project    @relation(fields: [projectId], references: [id], onDelete: Cascade)
+
+  @@map("tasks")
+}
+
+model CustomerInteraction {
+  id          String            @id @default(cuid())
+  type        InteractionType
+  subject     String
+  content     String
+  createdAt   DateTime          @default(now())
+
+  // Relations
+  customerId  String
+  customer    Customer          @relation(fields: [customerId], references: [id], onDelete: Cascade)
+
+  @@map("customer_interactions")
+}
+
+// Enums
+enum UserRole {
+  ADMIN
+  USER
+}
+
+enum CustomerValue {
+  LOW
+  MEDIUM
+  HIGH
+}
+
+enum CustomerStatus {
+  ACTIVE
+  INACTIVE
+  PROSPECT
+}
+
+enum ProjectStatus {
+  TODO
+  IN_PROGRESS
+  REVIEW
+  DONE
+}
+
+enum Priority {
+  LOW
+  MEDIUM
+  HIGH
+  URGENT
+}
+
+enum InteractionType {
+  EMAIL
+  CALL
+  MEETING
+  NOTE
+}
+
+model AnalyticsEvent {
+  id        String   @id @default(cuid())
+  event     String
+  userId    String?
+  sessionId String?
+  metadata  Json     @default("{}")
+  timestamp DateTime @default(now())
+  userAgent String?
+  ip        String?
+  createdAt DateTime @default(now())
+
+  @@index([event])
+  @@index([userId])
+  @@index([timestamp])
+  @@map("analytics_events")
+}

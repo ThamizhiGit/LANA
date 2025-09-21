@@ -1,0 +1,33 @@
+{
+  "name": "lana",
+  "version": "1.0.0",
+  "description": "LANA: Logical Automation. Networked Analytics.",
+  "main": "index.js",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "packageManager": "npm@10.9.0",
+  "scripts": {
+    "dev": "turbo dev",
+    "build": "turbo build",
+    "lint": "turbo lint",
+    "db:dev:up": "docker compose up -d",
+    "db:dev:down": "docker compose down"
+  },
+  "devDependencies": {
+    "turbo": "latest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThamizhiGit/LANA.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ThamizhiGit/LANA/issues"
+  },
+  "homepage": "https://github.com/ThamizhiGit/LANA#readme"
+
+}
