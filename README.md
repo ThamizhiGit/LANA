@@ -328,13 +328,54 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **n8n** for workflow automation capabilities
 - **Open Source Community** for amazing tools and libraries
 
+## � Dopcumentation
+
+Comprehensive documentation is available in the [`docs/`](./docs/) directory:
+
+### 🏗️ Architecture & Design
+- [**System Architecture**](./docs/architecture/README.md) - Complete system overview and design decisions
+- [**Database Design**](./docs/architecture/database.md) - Schema design and relationships
+- [**API Design**](./docs/architecture/api-design.md) - API patterns and communication protocols
+
+### 🚀 Development & Deployment
+- [**Getting Started Guide**](./docs/development/getting-started.md) - Quick setup for new developers
+- [**Development Workflow**](./docs/development/workflow.md) - Git workflow and best practices
+- [**Deployment Guide**](./docs/deployment/README.md) - Production deployment instructions
+- [**Testing Strategy**](./docs/development/testing.md) - Comprehensive testing approach
+
+### 📖 API Documentation
+- [**tRPC API Reference**](./docs/api/trpc.md) - Type-safe API procedures and examples
+- [**REST API Reference**](./docs/api/rest.md) - HTTP endpoints and responses
+- [**Microservices APIs**](./docs/api/microservices.md) - Inter-service communication
+- [**Events & Webhooks**](./docs/api/events.md) - Event-driven architecture guide
+
+### 🎯 Case Study & Analysis
+- [**📊 Technical Case Study**](./docs/case-study/README.md) - Comprehensive project analysis and learnings
+- [**Architecture Decisions**](./docs/case-study/decisions.md) - Technology choices and rationale
+- [**Performance Analysis**](./docs/case-study/performance.md) - Benchmarks and optimizations
+- [**Lessons Learned**](./docs/case-study/lessons.md) - Challenges overcome and solutions
+
+### 🔧 Service Documentation
+- [**Web Application**](./docs/services/web-app.md) - Next.js frontend architecture
+- [**AI Service**](./docs/services/ai-service.md) - AI-powered insights microservice
+- [**Analytics Service**](./docs/services/analytics-service.md) - Real-time analytics engine
+- [**n8n Consumer**](./docs/services/n8n-consumer.md) - Workflow automation bridge
+
+### 🔍 Operations & Monitoring
+- [**Monitoring Setup**](./docs/operations/monitoring.md) - Observability and alerting
+- [**Troubleshooting Guide**](./docs/operations/troubleshooting.md) - Common issues and solutions
+- [**Performance Tuning**](./docs/operations/performance.md) - Optimization guidelines
+
 ## 📞 Support
 
 For questions, issues, or contributions:
-- Open an issue on GitHub
-- Check the [documentation](docs/)
-- Review the [case study](http://localhost:3001/case-study) for technical details
+- **Documentation**: Start with the [comprehensive docs](./docs/README.md)
+- **Technical Details**: Review the [case study](./docs/case-study/README.md)
+- **Issues**: Open an issue on GitHub
+- **Live Demo**: Visit the [running application](http://localhost:3001)
 
 ---
 
-**Built with ❤️ using modern web technologies and best practices.**
+**Built with ❤️ by [Thamizhi.dev (TJ Guna)](https://thamizhi.dev) using modern web technologies and best practices.**
+
+*This project showcases enterprise-level development practices, microservices architecture, and comprehensive observability - perfect for technical interviews and portfolio demonstrations.*
