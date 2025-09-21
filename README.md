@@ -168,7 +168,7 @@ LANA/
 ├── tests/
 │   ├── integration/         # Integration tests
 │   └── e2e/                # End-to-end tests
-├── docs/                   # Documentation
+├── Docs/                   # Documentation
 └── docker-compose.yml     # Infrastructure services
 ```
 
@@ -330,47 +330,47 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## � Dopcumentation
 
-Comprehensive documentation is available in the [`docs/`](./docs/) directory:
+Comprehensive documentation is available in the [`Docs/`](./Docs/) directory:
 
 ### 🏗️ Architecture & Design
-- [**System Architecture**](./docs/architecture/README.md) - Complete system overview and design decisions
-- [**Database Design**](./docs/architecture/database.md) - Schema design and relationships
-- [**API Design**](./docs/architecture/api-design.md) - API patterns and communication protocols
+- [**System Architecture**](./Docs/architecture/README.md) - Complete system overview and design decisions
+- [**Database Design**](./Docs/architecture/database.md) - Schema design and relationships
+- [**API Design**](./Docs/architecture/api-design.md) - API patterns and communication protocols
 
 ### 🚀 Development & Deployment
-- [**Getting Started Guide**](./docs/development/getting-started.md) - Quick setup for new developers
-- [**Development Workflow**](./docs/development/workflow.md) - Git workflow and best practices
-- [**Deployment Guide**](./docs/deployment/README.md) - Production deployment instructions
-- [**Testing Strategy**](./docs/development/testing.md) - Comprehensive testing approach
+- [**Getting Started Guide**](./Docs/development/getting-started.md) - Quick setup for new developers
+- [**Development Workflow**](./Docs/development/workflow.md) - Git workflow and best practices
+- [**Deployment Guide**](./Docs/deployment/README.md) - Production deployment instructions
+- [**Testing Strategy**](./Docs/development/testing.md) - Comprehensive testing approach
 
 ### 📖 API Documentation
-- [**tRPC API Reference**](./docs/api/trpc.md) - Type-safe API procedures and examples
-- [**REST API Reference**](./docs/api/rest.md) - HTTP endpoints and responses
-- [**Microservices APIs**](./docs/api/microservices.md) - Inter-service communication
-- [**Events & Webhooks**](./docs/api/events.md) - Event-driven architecture guide
+- [**tRPC API Reference**](./Docs/api/trpc.md) - Type-safe API procedures and examples
+- [**REST API Reference**](./Docs/api/rest.md) - HTTP endpoints and responses
+- [**Microservices APIs**](./Docs/api/microservices.md) - Inter-service communication
+- [**Events & Webhooks**](./Docs/api/events.md) - Event-driven architecture guide
 
 ### 🎯 Case Study & Analysis
-- [**📊 Technical Case Study**](./docs/case-study/README.md) - Comprehensive project analysis and learnings
-- [**Architecture Decisions**](./docs/case-study/decisions.md) - Technology choices and rationale
-- [**Performance Analysis**](./docs/case-study/performance.md) - Benchmarks and optimizations
-- [**Lessons Learned**](./docs/case-study/lessons.md) - Challenges overcome and solutions
+- [**📊 Technical Case Study**](./Docs/case-study/README.md) - Comprehensive project analysis and learnings
+- [**Architecture Decisions**](./Docs/case-study/decisions.md) - Technology choices and rationale
+- [**Performance Analysis**](./Docs/case-study/performance.md) - Benchmarks and optimizations
+- [**Lessons Learned**](./Docs/case-study/lessons.md) - Challenges overcome and solutions
 
 ### 🔧 Service Documentation
-- [**Web Application**](./docs/services/web-app.md) - Next.js frontend architecture
-- [**AI Service**](./docs/services/ai-service.md) - AI-powered insights microservice
-- [**Analytics Service**](./docs/services/analytics-service.md) - Real-time analytics engine
-- [**n8n Consumer**](./docs/services/n8n-consumer.md) - Workflow automation bridge
+- [**Web Application**](./Docs/services/web-app.md) - Next.js frontend architecture
+- [**AI Service**](./Docs/services/ai-service.md) - AI-powered insights microservice
+- [**Analytics Service**](./Docs/services/analytics-service.md) - Real-time analytics engine
+- [**n8n Consumer**](./Docs/services/n8n-consumer.md) - Workflow automation bridge
 
 ### 🔍 Operations & Monitoring
-- [**Monitoring Setup**](./docs/operations/monitoring.md) - Observability and alerting
-- [**Troubleshooting Guide**](./docs/operations/troubleshooting.md) - Common issues and solutions
-- [**Performance Tuning**](./docs/operations/performance.md) - Optimization guidelines
+- [**Monitoring Setup**](./Docs/operations/monitoring.md) - Observability and alerting
+- [**Troubleshooting Guide**](./Docs/operations/troubleshooting.md) - Common issues and solutions
+- [**Performance Tuning**](./Docs/operations/performance.md) - Optimization guidelines
 
 ## 📞 Support
 
 For questions, issues, or contributions:
-- **Documentation**: Start with the [comprehensive docs](./docs/README.md)
-- **Technical Details**: Review the [case study](./docs/case-study/README.md)
+- **Documentation**: Start with the [comprehensive Docs](./Docs/README.md)
+- **Technical Details**: Review the [case study](./Docs/case-study/README.md)
 - **Issues**: Open an issue on GitHub
 - **Local Development**: Run the application locally at http://localhost:3001
 

@@ -18,7 +18,7 @@ Welcome to the comprehensive documentation for Lana CRM - a modern, AI-powered C
 - [**Testing Strategy**](./development/testing.md) - Testing approach and best practices
 - [**Deployment Guide**](./deployment/README.md) - Production deployment instructions
 
-### API Documentation
+### API Documentation 
 
 - [**tRPC API Reference**](./api/trpc.md) - Type-safe API procedures
 - [**REST API Reference**](./api/rest.md) - HTTP endpoints and responses
