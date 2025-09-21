@@ -7,6 +7,7 @@ Lana CRM represents a comprehensive exploration of modern full-stack development
 ## 🚀 Executive Summary
 
 **Project**: Lana CRM - Logical Automation. Networked Analytics.  
+**Developer**: TJ Guna ([thamizhi.dev](https://thamizhi.dev))  
 **Duration**: 4-week development cycle  
 **Team Size**: 1 developer (full-stack)  
 **Architecture**: Microservices with event-driven automation  
@@ -493,3 +494,19 @@ This project demonstrates proficiency in:
 ---
 
 This case study represents a comprehensive exploration of modern software development practices, demonstrating the ability to design, implement, and deploy production-ready systems at scale.
+
+## 👨‍💻 About the Developer
+
+**TJ Guna** is a full-stack developer specializing in modern web technologies and microservices architecture.
+
+**Website**: [thamizhi.dev](https://thamizhi.dev)  
+**Email**: thavaguna.opt@gmail.com  
+**GitHub**: [ThamizhiGit](https://github.com/ThamizhiGit)
+
+This project showcases expertise in:
+- Modern full-stack development (React, Next.js, Node.js)
+- Microservices architecture and design patterns
+- Event-driven systems and message queues
+- AI integration and intelligent fallback strategies
+- Distributed tracing and observability
+- Production-ready deployment and monitoring

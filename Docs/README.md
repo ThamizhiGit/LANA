@@ -46,10 +46,10 @@ Welcome to the comprehensive documentation for Lana CRM - a modern, AI-powered C
 - [**Performance Tuning**](./operations/performance.md) - Optimization guidelines
 - [**Backup & Recovery**](./operations/backup.md) - Data protection strategies
 
-## 🚀 Quick Links
+## 🚀 Local Development Links
 
-- **Live Demo**: [Lana CRM Application](http://localhost:3001)
-- **API Playground**: [tRPC Playground](http://localhost:3001/api/trpc)
+- **Web Application**: http://localhost:3001
+- **API Health Check**: http://localhost:3007/health
 - **Monitoring**: [Jaeger Tracing](http://localhost:16686)
 - **Message Queue**: [RabbitMQ Management](http://localhost:15672)
 - **Workflow Automation**: [n8n Interface](http://localhost:5678)
@@ -73,10 +73,14 @@ We welcome contributions to improve our documentation:
 
 ## 📞 Support
 
-- **Issues**: [GitHub Issues](https://github.com/your-repo/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/your-repo/discussions)
-- **Email**: support@lana-crm.com
+- **Developer**: [Thamizhi.dev](https://thamizhi.dev)
+- **Email**: thavaguna.opt@gmail.com
+- **GitHub**: [Project Repository](https://github.com/ThamizhiGit/LANA)
 
 ---
 
-_This documentation is maintained alongside the codebase and updated with each release._
+_This documentation is maintained by [Thamizhi.dev](https://thamizhi.dev) and updated with each release._
+
+**Developer**: TJ Guna  
+**Website**: [thamizhi.dev](https://thamizhi.dev)  
+**Email**: thavaguna.opt@gmail.com

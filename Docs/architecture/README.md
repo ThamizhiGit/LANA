@@ -319,3 +319,17 @@ sequenceDiagram
 ---
 
 This architecture provides a solid foundation for a scalable, maintainable, and observable CRM system while maintaining flexibility for future enhancements.
+
+## 👨‍💻 Architecture Design
+
+**Designed and implemented by**: TJ Guna  
+**Website**: [thamizhi.dev](https://thamizhi.dev)  
+**Email**: thavaguna.opt@gmail.com
+
+This architecture demonstrates expertise in:
+- Microservices design patterns
+- Event-driven architecture
+- Distributed systems and observability
+- Modern web application architecture
+- Scalable database design
+- Security and performance optimization

@@ -372,10 +372,17 @@ For questions, issues, or contributions:
 - **Documentation**: Start with the [comprehensive docs](./docs/README.md)
 - **Technical Details**: Review the [case study](./docs/case-study/README.md)
 - **Issues**: Open an issue on GitHub
-- **Live Demo**: Visit the [running application](http://localhost:3001)
+- **Local Development**: Run the application locally at http://localhost:3001
 
 ---
 
-**Built with ❤️ by [Thamizhi.dev (TJ Guna)](https://thamizhi.dev) using modern web technologies and best practices.**
+**Built with ❤️ by [TJ Guna](https://thamizhi.dev) using modern web technologies and best practices.**
+
+## 👨‍💻 Developer
+
+**TJ Guna**  
+**Website**: [thamizhi.dev](https://thamizhi.dev)  
+**Email**: thavaguna.opt@gmail.com  
+**GitHub**: [ThamizhiGit](https://github.com/ThamizhiGit)
 
 *This project showcases enterprise-level development practices, microservices architecture, and comprehensive observability - perfect for technical interviews and portfolio demonstrations.*

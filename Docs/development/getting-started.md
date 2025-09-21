@@ -12,7 +12,7 @@ This guide will help you set up the Lana CRM development environment and get all
 ### 1. Clone and Install
 ```bash
 # Clone the repository
-git clone <repository-url>
+git clone https://github.com/ThamizhiGit/LANA.git
 cd LANA
 
 # Install all dependencies
@@ -257,3 +257,9 @@ Once you have everything running:
 - [OpenTelemetry Documentation](https://opentelemetry.io/docs/)
 
 Happy coding! 🚀
+
+---
+
+**Developer**: TJ Guna  
+**Website**: [thamizhi.dev](https://thamizhi.dev)  
+**Email**: thavaguna.opt@gmail.com
